@@ -1,10 +1,10 @@
-Mock Interview Preparer
+# Mock Interview Preparer
 
-Description
+## Description
 
 mock_interview_preparor is a CLI tool designed to help users prepare for interviews in any field. It leverages Cohere's AI API to generate interview questions, provide feedback on your answers, and score your responses on a scale of 0 to 10.
 
-Features
+## Features
 
 Conduct mock interviews on any topic.
 
@@ -12,19 +12,19 @@ Receive AI-generated feedback and scoring for your answers.
 
 Track your performance across multiple questions.
 
-Prerequisites
+## Prerequisites
 
 Node.js installed on your system.
 
-Installation
+## Installation
 
 `npm i mock_interview_preparor`
 
 
-Usage
+## Usage
 
 Run the CLI tool:
- `interview`
+ `interview` or `npx interview`
 
 Follow the prompts:
 
@@ -36,6 +36,7 @@ Answer the questions and receive feedback and a score.
 
 Example Output:
 
+```bash
 How many questions would you like? 3
 What topic would you like to be interviewed on? JavaScript
 
@@ -50,7 +51,7 @@ Your Answer: The event loop handles asynchronous tasks and callbacks.
 Feedback: Clear answer! Consider explaining the call stack and microtasks in more detail.
 
 Thank you for practicing! Your readiness score is: 85%
-
+```
 
 Version
 
